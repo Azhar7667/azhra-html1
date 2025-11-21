@@ -197,6 +197,7 @@
     <div class="container">
         <header>
             <h1>مرحباً بك في موقع التعليم</h1>
+            <div class="lesson" id="lesson1"></div>
             <p class="subtitle">تعلم الحوسبة وتطوير البرمجيات بطرق مبسطة وممتعة</p>
             <p class="lesson-title">الدرس الأول: أوامر Git الأساسية</p>
         </header>
@@ -456,7 +457,83 @@
                 </div>
             </div>
         </div>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+            <p class="lesson-title">الدرس الثاني: التعاون في Git (Collaboration)</p>
+        </header>
+
+        <div class="content-box">
+            <div class="lesson" id="lesson2"></div>
+            <h2><i class="fas fa-users"></i> الدرس الثاني: التعاون في Git</h2>
+            <p>في هذا الدرس سنتعلم كيفية العمل بشكل تعاوني على المشاريع باستخدام Git وGitHub، وكيفية إدارة الفرق والمشاركة في تطوير البرمجيات.</p>
+            
+            <div class="collaboration-steps">
+                <h3>خطوات العمل التعاوني</h3>
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div>إنشاء مستودع على GitHub ومشاركته مع فريق العمل</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div>نسخ المستودع إلى الجهاز المحلي باستخدام git clone</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div>إنشاء فرع جديد لكل ميزة أو تصحيح يتم العمل عليه</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div>رفع التغييرات وإنشاء طلبات السحب (Pull Requests)</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div>مراجعة الكود ودمج التغييرات مع الفرع الرئيسي</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box">
+            <h2><i class="fas fa-code-branch"></i> أوامر Git للتعاون</h2>
+            <ul class="lesson-list">
+                <li><i class="fas fa-copy"></i> git clone: نسخ مستودع من GitHub إلى الجهاز المحلي</li>
+                <li><i class="fas fa-code-branch"></i> git branch: إنشاء وعرض وإدارة الفروع</li>
+                <li><i class="fas fa-exchange-alt"></i> git checkout: الانتقال بين الفروع</li>
+                <li><i class="fas fa-download"></i> git pull: جلب التحديثات من المستودع البعيد</li>
+                <li><i class="fas fa-upload"></i> git push: رفع التغييرات إلى المستودع البعيد</li>
+                <li><i class="fas fa-code-merge"></i> git merge: دمج الفروع مع بعضها</li>
+                <li><i class="fas fa-history"></i> git fetch: جلب المعلومات من المستودع البعيد دون الدمج</li>
+                <li><i class="fas fa-user-plus"></i> إضافة مساهمين: إدارة صلاحيات الفريق في GitHub</li>
+            </ul>
+        </div>
+
+        <div class="content-box">
+            <h2><i class="fas fa-users-cog"></i> ميزات العمل التعاوني</h2>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-user-friends"></i>
+                    <h3>عمل جماعي</h3>
+                    <p>تمكين فرق العمل من المشاركة في نفس المشروع بكفاءة</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-code-compare"></i>
+                    <h3>مراجعة الكود</h3>
+                    <p>مراجعة وتحسين الكود من قبل عدة أعضاء في الفريق</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>إدارة المهام</h3>
+                    <p>تتبع المهام والأخطاء وطلبات الميزات بشكل منظم</p>
+                </div>
+            </div>
+        </div>
+
+
         
+
         <footer>
             <p>تم تصميم هذا الموقع كجزء من التكليف العملي لمادة الحوسبة السحابية</p>
             <p>جميع الحقوق محفوظة &copy; Azhar.ahmed</p>
